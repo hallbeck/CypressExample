@@ -1,0 +1,26 @@
+{
+  "name": "cypressexample",
+  "version": "1.0.0",
+  "description": "JavaScript and Cypress examples for interviewing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Cypress"
+  ],
+  "author": "Kerri JAckson",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "cypress": "^12.16.0"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1"
+  }
+}
