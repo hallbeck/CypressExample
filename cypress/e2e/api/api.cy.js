@@ -1,5 +1,5 @@
 /// <reference types="cypress" />
-import config from './config.json'
+import config from './api_config.json'
 import { faker } from '@faker-js/faker'
 describe('API Testing ', function () {
    //let att1
