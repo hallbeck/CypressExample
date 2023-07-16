@@ -23,8 +23,8 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
-
-Cypress.Commands.add('compare', (one,two) => {
+//this doesnt work, I ws just playing with ahving javascript methods
+Cypress.Commands.add('signIn', (one,two) => {
     var one = one;
     one = one.replace('dd','');
     return one;
